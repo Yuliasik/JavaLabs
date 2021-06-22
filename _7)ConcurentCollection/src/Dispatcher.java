@@ -72,7 +72,7 @@ class FileHandler implements Runnable {
 		int length = 0;
 		String temp;
 		line();
-		System.out.printf("%63s\n", "Слова та кількість їх повторів:");
+		System.out.printf("%63s\n", "Г‘Г«Г®ГўГ  ГІГ  ГЄВіГ«ГјГЄВіГ±ГІГј ВїГµ ГЇГ®ГўГІГ®Г°ВіГў:");
 		line();
 		for (Map.Entry<String, Long> element : wordsAndCountRepetitions.entrySet()) {
 			temp = element.getKey() + "=" + element.getValue();
@@ -95,7 +95,7 @@ class FileHandler implements Runnable {
 		int count = 0;
 		int length = 0;
 		line();
-		System.out.printf("%73s\n","Слова, в яких перша та остання літери співпадають:");
+		System.out.printf("%73s\n","Г‘Г«Г®ГўГ , Гў ГїГЄГЁГµ ГЇГҐГ°ГёГ  ГІГ  Г®Г±ГІГ Г­Г­Гї Г«ВіГІГҐГ°ГЁ Г±ГЇВіГўГЇГ Г¤Г ГѕГІГј:");
 		line();
 		for (String string : wordsWithSameStartAndEnd) {
 			length += string.length() + 2;
